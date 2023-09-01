@@ -1,0 +1,62 @@
+.container{
+
+    background-color: #CC5500;
+    border-radius: 10px;
+}
+
+#div-2{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: rem;
+    background-color: #7b3707;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+#body-title{
+    color: #CC5500;
+    text-shadow: 0.2px 0.3px 0 #000;
+    text-transform: uppercase;
+}
+
+
+.list{
+    list-style: none;
+    padding: 1rem;
+
+}
+
+.list li{
+    display: inline-block;
+    margin-right: 1rem;
+    text-align: right;
+
+}
+
+a{
+    
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#texas-pic {
+    width: 500px;
+    display: block; /* Allow the image to stack below the title */
+    margin-top: 1rem; /* Add space between the title and image */
+    margin-left: auto; /* Center the image horizontally */
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 530px) {
+    #texas-pic {
+        width: 350px; /* Shrink the image to fit the screen width */
+    }
+
+    #div-2 {
+        min-width: 376px; /* Prevent the content from getting narrower than 350px */
+    }
+}
